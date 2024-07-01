@@ -2,7 +2,7 @@
 
 ![Design preview](./src/design/design1.png)
 
-## Mobile Görünüm
+## Mobil Görünüm
 
 ![Design preview](./src/design/design2.png)
 
