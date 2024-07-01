@@ -1,10 +1,10 @@
 # portolio websitem
 
-![Design preview](./design/design1.png)
+![Design preview](./src/design/design1.png)
 
 ## Mobile Görünüm
 
-![Design preview](./design/design2.png)
+![Design preview](./src/design/design2.png)
 
 Bu projede aşağıdaki teknolojiler kullanılmıştır:
 
