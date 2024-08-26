@@ -58,32 +58,32 @@ const Projects = () => {
               <img
                 alt="content"
                 className="object-cover object-center h-1201 w-502"
-                src="https://res.cloudinary.com/doh2ghgs5/image/upload/v1719782944/Ekran_görüntüsü_2024-05-23_021837_pdgj6s.png"
+                src="https://res.cloudinary.com/dzldxw3q6/image/upload/v1724549250/h4fdzleckavscmoevp9l.png"
               />
             </div>
             <h2
               className="title-font font-bold text-2xl  text-white mt-6 mb-3"
               style={{ fontFamily: "Inter, sans-serif" }}
             >
-              Hchat
+              GBLACK
             </h2>
             <p
               className="leading-relaxed font-bold text-base text-zinc-400"
               style={{ fontFamily: "Inter, sans-serif" }}
             >
-              React TailwindCss Ts
+              React TailwindCss Framer
             </p>
             <div className="flex justify-center mt-6">
               <a
                 className="whitespace-nowrap rounded bg-zinc-900 px-3 py-2 text-sm font-medium text-white transition-colors hover:bg-zinc-300 hover:text-black"
-                href="https://hchatt.netlify.app/"
+                href="https://goldblack.vercel.app"
                 target="_blank"
               >
                 Demo
               </a>
               <a
                 className="whitespace-nowrap ml-4 rounded bg-zinc-900 px-3 py-2 text-sm font-medium text-white transition-colors hover:bg-zinc-300 hover:text-black"
-                href="https://github.com/efekanheper/Hchat-react"
+                href="https://github.com/efekanheper/GB-website"
                 target="_blank"
               >
                 GitHub
@@ -102,32 +102,32 @@ const Projects = () => {
               <img
                 alt="content"
                 className="object-cover object-center h-full w-full"
-                src="https://res.cloudinary.com/doh2ghgs5/image/upload/v1719783065/sadasd.jpg_exfibm.png"
+                src="https://res.cloudinary.com/doh2ghgs5/image/upload/v1719782944/Ekran_görüntüsü_2024-05-23_021837_pdgj6s.png"
               />
             </div>
             <h2
               className="title-font font-bold text-2xl  text-white mt-6 mb-3"
               style={{ fontFamily: "Inter, sans-serif" }}
             >
-              Hwood
+              HChat
             </h2>
             <p
               className="leading-relaxed font-bold text-base text-zinc-400"
               style={{ fontFamily: "Inter, sans-serif" }}
             >
-              Html Css Js
+              React TailwindCss Ts
             </p>
             <div className="flex justify-center mt-6">
               <a
                 className="whitespace-nowrap rounded bg-zinc-900 px-3 py-2 text-sm font-medium text-white transition-colors hover:bg-zinc-300 hover:text-black"
-                href="https://hwood.netlify.app/"
+                href="https://hchatt.netlify.app"
                 target="_blank"
               >
                 Demo
               </a>
               <a
                 className="whitespace-nowrap ml-4 rounded bg-zinc-900 px-3 py-2 text-sm font-medium text-white transition-colors hover:bg-zinc-300 hover:text-black"
-                href="https://github.com/efekanheper/hwood-landingpage"
+                href="https://github.com/efekanheper/Hchat-react"
                 target="_blank"
               >
                 GitHub
@@ -148,32 +148,32 @@ const Projects = () => {
               <img
                 alt="content"
                 className="object-cover object-center h-1201 w-1501"
-                src="https://res.cloudinary.com/doh2ghgs5/image/upload/v1719783161/xxd_nspiw5.png"
+                src="https://res.cloudinary.com/doh2ghgs5/image/upload/v1719783065/sadasd.jpg_exfibm.png"
               />
             </div>
             <h2
               className="title-font font-bold text-2xl  text-white mt-6 mb-3"
               style={{ fontFamily: "Inter, sans-serif" }}
             >
-              Hdrunk
+              HWood
             </h2>
             <p
               className="leading-relaxed font-bold text-base text-zinc-400"
               style={{ fontFamily: "Inter, sans-serif" }}
             >
-              Html TailwindCss Js
+              Html Css Js
             </p>
             <div className="flex justify-center mt-6">
               <a
                 className="whitespace-nowrap rounded bg-zinc-900 px-3 py-2 text-sm font-medium text-white transition-colors hover:bg-zinc-300 hover:text-black"
-                href="https://hdrunk.netlify.app/"
+                href="https://hwood.netlify.app"
                 target="_blank"
               >
                 Demo
               </a>
               <a
                 className="whitespace-nowrap ml-4 rounded bg-zinc-900 px-3 py-2 text-sm font-medium text-white transition-colors hover:bg-zinc-300 hover:text-black"
-                href="https://github.com/efekanheper/hdrunk-page"
+                href="https://github.com/efekanheper/hwood-landingpage"
                 target="_blank"
               >
                 GitHub
