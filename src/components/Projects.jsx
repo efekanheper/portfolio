@@ -58,6 +58,50 @@ const Projects = () => {
               <img
                 alt="content"
                 className="object-cover object-center h-1201 w-502"
+                src="https://res.cloudinary.com/dzldxw3q6/image/upload/v1728943834/obes0c3aswh1l0bbi3ab.png"
+              />
+            </div>
+            <h2
+              className="title-font font-bold text-2xl  text-white mt-6 mb-3"
+              style={{ fontFamily: "Inter, sans-serif" }}
+            >
+              SAAS WEBSITE
+            </h2>
+            <p
+              className="leading-relaxed font-bold text-base text-zinc-400"
+              style={{ fontFamily: "Inter, sans-serif" }}
+            >
+              React TailwindCss Framer
+            </p>
+            <div className="flex justify-center mt-6">
+              <a
+                className="whitespace-nowrap rounded bg-zinc-900 px-3 py-2 text-sm font-medium text-white transition-colors hover:bg-zinc-300 hover:text-black"
+                href="https://finance-saasweb.vercel.app"
+                target="_blank"
+              >
+                Demo
+              </a>
+              <a
+                className="whitespace-nowrap ml-4 rounded bg-zinc-900 px-3 py-2 text-sm font-medium text-white transition-colors hover:bg-zinc-300 hover:text-black"
+                href="https://github.com/efekanheper/saas-websites"
+                target="_blank"
+              >
+                GitHub
+              </a>
+            </div>
+          </motion.div>
+          <motion.div
+            ref={project1Ref}
+            initial="initial"
+            animate={project1InView ? "animate" : "initial"}
+            variants={motionVariants}
+            transition={motionTransition}
+            className="sm:w-1/2 mb-10 px-4"
+          >
+            <div className="rounded-lg h-64 overflow-hidden">
+              <img
+                alt="content"
+                className="object-cover object-center h-1201 w-502"
                 src="https://res.cloudinary.com/dzldxw3q6/image/upload/v1724549250/h4fdzleckavscmoevp9l.png"
               />
             </div>
@@ -90,7 +134,9 @@ const Projects = () => {
               </a>
             </div>
           </motion.div>
-          <motion.div
+        </div>
+        <div className="flex flex-wrap -mx-4 -mb-2 mt-8 text-center">
+        <motion.div
             ref={project2Ref}
             initial="initial"
             animate={project2InView ? "animate" : "initial"}
@@ -128,52 +174,6 @@ const Projects = () => {
               <a
                 className="whitespace-nowrap ml-4 rounded bg-zinc-900 px-3 py-2 text-sm font-medium text-white transition-colors hover:bg-zinc-300 hover:text-black"
                 href="https://github.com/efekanheper/Hchat-react"
-                target="_blank"
-              >
-                GitHub
-              </a>
-            </div>
-          </motion.div>
-        </div>
-        <div className="flex flex-wrap -mx-4 -mb-2 mt-8 text-center">
-          <motion.div
-            ref={project3Ref}
-            initial="initial"
-            animate={project3InView ? "animate" : "initial"}
-            variants={motionVariants}
-            transition={motionTransition}
-            className="sm:w-1/2 mb-10 px-4"
-          >
-            <div className="rounded-lg h-64 overflow-hidden">
-              <img
-                alt="content"
-                className="object-cover object-center h-1201 w-1501"
-                src="https://res.cloudinary.com/doh2ghgs5/image/upload/v1719783065/sadasd.jpg_exfibm.png"
-              />
-            </div>
-            <h2
-              className="title-font font-bold text-2xl  text-white mt-6 mb-3"
-              style={{ fontFamily: "Inter, sans-serif" }}
-            >
-              HWood
-            </h2>
-            <p
-              className="leading-relaxed font-bold text-base text-zinc-400"
-              style={{ fontFamily: "Inter, sans-serif" }}
-            >
-              Html Css Js
-            </p>
-            <div className="flex justify-center mt-6">
-              <a
-                className="whitespace-nowrap rounded bg-zinc-900 px-3 py-2 text-sm font-medium text-white transition-colors hover:bg-zinc-300 hover:text-black"
-                href="https://hwood.netlify.app"
-                target="_blank"
-              >
-                Demo
-              </a>
-              <a
-                className="whitespace-nowrap ml-4 rounded bg-zinc-900 px-3 py-2 text-sm font-medium text-white transition-colors hover:bg-zinc-300 hover:text-black"
-                href="https://github.com/efekanheper/hwood-landingpage"
                 target="_blank"
               >
                 GitHub
