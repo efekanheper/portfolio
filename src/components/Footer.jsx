@@ -5,7 +5,10 @@ const Footer = () => {
     <footer className="bg-black py-8">
       <div className="text-center text-sm text-neutral-50">
         <div className="flex justify-center">
-          <div className="text-xs mb-4">
+          <div
+            className="text-xs mb-4 font-semibold text-white w-full text-center"
+            style={{ fontFamily: "Inter, sans-serif" }}
+          >
             <p>© 2024 Efekan Heper, All rights reserved.</p>
           </div>
         </div>
