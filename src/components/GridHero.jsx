@@ -184,7 +184,7 @@ const EmailListBlock = () => {
       <form onSubmit={(e) => e.preventDefault()} className="flex items-center">
         <button
           type="button"
-          className="flex items-center gap-2 whitespace-nowrap rounded bg-zinc-900 px-3 py-2 mt-2 text-sm font-medium text-white transition-colors hover:bg-zinc-300 hover:text-black"
+          className="flex items-center gap-2 whitespace-nowrap rounded bg-zinc-900 px-3 py-2  text-sm font-medium text-white transition-colors hover:bg-zinc-300 hover:text-black"
           onClick={handleCopy}
         >
           <FiMail />
