@@ -176,7 +176,7 @@ const EmailListBlock = () => {
       });
   };
 
- return (
+  return (
     <Block className="col-span-12 flex items-center gap-2 md:col-span-9">
       <p className=" text-xl" id="email">
         efekanheper@icloud.com
