@@ -84,7 +84,7 @@ const Projects = () => {
     {
       title: "HChat",
       imgSrc:
-        "https://res.cloudinary.com/doh2ghgs5/image/upload/v1719782944/Ekran_görüntüsü_2024-05-23_021837_pdgj6s.png",
+        "https://res.cloudinary.com/dzldxw3q6/image/upload/v1736212647/hchatt.netlify.app__minfym.png",
       technologies: "React TailwindCss Ts",
       demoLink: "https://hchatt.netlify.app",
       githubLink: "https://github.com/efekanheper/Hchat-react",
