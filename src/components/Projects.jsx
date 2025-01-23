@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
+import Button from "./Button";
 
 const ProjectCard = ({ title, imgSrc, technologies, demoLink, githubLink }) => {
   const { ref, inView } = useInView({
@@ -41,22 +42,12 @@ const ProjectCard = ({ title, imgSrc, technologies, demoLink, githubLink }) => {
       <p className="leading-relaxed font-bold text-base text-zinc-400">
         {technologies}
       </p>
-      <div className="flex justify-center mt-6">
-        <a
-          className="whitespace-nowrap rounded bg-zinc-900 px-3 py-2 text-sm font-medium text-white transition-colors hover:bg-zinc-300 hover:text-black"
-          href={demoLink}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Demo
+      <div className="flex justify-center mt-6 space-x-4">
+        <a href={demoLink} target="_blank" rel="noopener noreferrer">
+          <Button> Demo </Button>
         </a>
-        <a
-          className="whitespace-nowrap ml-4 rounded bg-zinc-900 px-3 py-2 text-sm font-medium text-white transition-colors hover:bg-zinc-300 hover:text-black"
-          href={githubLink}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          GitHub
+        <a href={githubLink} target="_blank" rel="noopener noreferrer">
+          <Button>GitHub</Button>
         </a>
       </div>
     </motion.div>
@@ -66,12 +57,13 @@ const ProjectCard = ({ title, imgSrc, technologies, demoLink, githubLink }) => {
 const Projects = () => {
   const projects = [
     {
-      title: "Saas Website",
+      title: "Rent A Car template",
       imgSrc:
-        "https://res.cloudinary.com/dzldxw3q6/image/upload/v1729175555/gmvqqpotic9hyufcaqdw.png",
-      technologies: "React TailwindCss Framer",
-      demoLink: "https://finance-saasweb.vercel.app",
-      githubLink: "https://github.com/efekanheper/saas-websites",
+        "https://res.cloudinary.com/dzldxw3q6/image/upload/v1737592650/carrent-gilt.vercel.app__jsen9q.png",
+      technologies: "NextJs TypeScript TailwindCss CursorAi Gsap Framer",
+      demoLink: "https://carrent-gilt.vercel.app",
+      githubLink:
+        "https://github.com/efekanheper/rent-a-car-template---lalacars",
     },
     {
       title: "GBlack",
@@ -84,18 +76,18 @@ const Projects = () => {
     {
       title: "HChat",
       imgSrc:
-        "https://res.cloudinary.com/dzldxw3q6/image/upload/v1736212647/hchatt.netlify.app__minfym.png",
+        "https://res.cloudinary.com/doh2ghgs5/image/upload/v1719782944/Ekran_görüntüsü_2024-05-23_021837_pdgj6s.png",
       technologies: "React TailwindCss Ts",
       demoLink: "https://hchatt.netlify.app",
       githubLink: "https://github.com/efekanheper/Hchat-react",
     },
     {
-      title: "Htattoo",
+      title: "Saas Website",
       imgSrc:
-        "https://res.cloudinary.com/doh2ghgs5/image/upload/v1719783263/htattoo.vercel.app__1_p8exl8.png",
-      technologies: "Html TailwindCss Js",
-      demoLink: "https://htattoo.vercel.app/",
-      githubLink: "https://github.com/efekanheper/htattoo",
+        "https://res.cloudinary.com/dzldxw3q6/image/upload/v1729175555/gmvqqpotic9hyufcaqdw.png",
+      technologies: "React TailwindCss Framer",
+      demoLink: "https://finance-saasweb.vercel.app",
+      githubLink: "https://github.com/efekanheper/saas-websites",
     },
   ];
 
@@ -117,12 +109,11 @@ const Projects = () => {
         </div>
         <div className="flex justify-center mt-8">
           <a
-            className="whitespace-nowrap rounded bg-zinc-900 px-6 py-3 text-base font-medium text-white transition-colors hover:bg-zinc-300 hover:text-black"
             href="https://github.com/efekanheper?tab=repositories"
             target="_blank"
             rel="noopener noreferrer"
           >
-            For More
+            <Button>More Projects</Button>
           </a>
         </div>
       </div>
