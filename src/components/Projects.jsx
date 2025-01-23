@@ -1,12 +1,10 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import Button from "./Button";
+import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 
 const ProjectCard = ({ title, imgSrc, technologies, demoLink, githubLink }) => {
-  const { ref, inView } = useInView({
-    triggerOnce: true,
-  });
+  const { ref, inView } = useInView({ triggerOnce: true });
 
   const motionVariants = {
     initial: { scale: 0.5, y: 50, opacity: 0 },
@@ -43,11 +41,21 @@ const ProjectCard = ({ title, imgSrc, technologies, demoLink, githubLink }) => {
         {technologies}
       </p>
       <div className="flex justify-center mt-6 space-x-4">
-        <a href={demoLink} target="_blank" rel="noopener noreferrer">
-          <Button> Demo </Button>
+        <a
+          href={demoLink}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center gap-2 whitespace-nowrap rounded-full bg-zinc-900 px-3 py-2 mt-4 text-sm font-medium text-white transition-colors hover:bg-zinc-300 hover:text-black"
+        >
+          <FaExternalLinkAlt /> Demo
         </a>
-        <a href={githubLink} target="_blank" rel="noopener noreferrer">
-          <Button>GitHub</Button>
+        <a
+          href={githubLink}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center gap-2 whitespace-nowrap rounded-full  bg-zinc-900 px-3 py-2 mt-4  text-sm font-medium  text-white transition-colors hover:bg-zinc-300 hover:text-black"
+        >
+          <FaGithub /> GitHub
         </a>
       </div>
     </motion.div>
@@ -98,12 +106,7 @@ const Projects = () => {
           Projects
         </h1>
         <div className="flex flex-wrap -mx-4 -mb-10 text-center">
-          {projects.slice(0, 2).map((project) => (
-            <ProjectCard key={project.title} {...project} />
-          ))}
-        </div>
-        <div className="flex flex-wrap -mx-4 -mb-2 mt-8 text-center">
-          {projects.slice(2).map((project) => (
+          {projects.map((project) => (
             <ProjectCard key={project.title} {...project} />
           ))}
         </div>
@@ -112,8 +115,9 @@ const Projects = () => {
             href="https://github.com/efekanheper?tab=repositories"
             target="_blank"
             rel="noopener noreferrer"
+            className="flex items-center gap-2 bg-zinc-900 font-semibold text-white px-6 py-3 rounded-lg hover:bg-zinc-800 transition"
           >
-            <Button>More Projects</Button>
+            <FaGithub /> More Projects
           </a>
         </div>
       </div>
