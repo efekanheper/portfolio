@@ -114,7 +114,7 @@ const SocialsBlock = () => (
       className="col-span-6 bg-zinc-50 md:col-span-3"
     >
       <a
-        href="https://drive.google.com/file/d/1IZhh-wef48AIG-DLM89GSzpslwUQ9Ekw/view"
+        href="https://drive.google.com/file/d/1LqHw3WK3bytwYgci15uJTcoJxS1sEyMT/view"
         target="_blank"
         className="grid h-full place-content-center text-3xl text-black"
       >
